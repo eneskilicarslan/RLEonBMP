@@ -5,6 +5,7 @@ from PIL import Image
 def run():
     """ MAIN FUNCTIONALITY"""
 
+
 def encode():
     """ INPUT - drop like its hot! """
     # path = input("path lütfen: ")
