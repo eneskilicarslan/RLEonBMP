@@ -19,11 +19,11 @@ def run():
 
 def encode():
     """ INPUT - drop like its hot! """
-    # path = input("path please (drop like its hot!): ")
-    # bmp = Image.open(path[1:-1])  # "" deletion
+    path = input("path please (drop like its hot!): ")
+    bmp = Image.open(path[1:-1])  # "" deletion
 
     """ NON-INPUT """
-    bmp = Image.open('../../Desktop/School/Uni v5.2/VeriSıkıştırma/odev1/cicek.bmp')
+    # bmp = Image.open('')
 
     ''' BMP TO ARRAY '''
     arrayBMP = np.asarray(bmp)
